@@ -7,3 +7,11 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .back {
+    background-image: linear-gradient(#ffe1e1ff,#ffffff);
+  }
+
+  #border {
+    border: solid 5px #ffffff;
+  }
