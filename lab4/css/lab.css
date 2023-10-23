@@ -7,3 +7,24 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  
+.code {
+  background-color: lightblue;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border: solid 1px #ffffff;
+}
+
+.back {
+  background-image: linear-gradient(rgb(225, 248, 255),#ffffff);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.image {
+  margin-left: 250px;
+  width: 500px;
+}

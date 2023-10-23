@@ -44,6 +44,10 @@ h1 {
   background-color: #ffbdbd;
 }
 
+#bar {
+  margin-left: 20px;
+}
+
 #selfie {
   margin: 10px;
   max-height: 500px;
@@ -60,4 +64,8 @@ h1 {
 #margin {
   margin-top: 150px;
   margin-left: 400px;
+}
+
+.list {
+  list-style-image: url(/img/cherry-flower.png);
 }
