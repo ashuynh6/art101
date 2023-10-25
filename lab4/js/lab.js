@@ -10,7 +10,10 @@
   // ask the current player for their move and chosen column
   // if the move is valid:
     // place the player's token in the specified column on the board
-    // check for a win
-    // check for a tie 
+    // check for a win:
+      // four consecutive pieces of a player aligned vertically, horizontally, or diagonally
+      // display the winner
+    // check for a tie:
+      // all the grid cells are filled and check-for-win doesn't apply to either players
+      // declare a draw
     // switch to the next player
-// display the winner or declare a draw
