@@ -1,10 +1,20 @@
+/*
+ * Ashley Huynh <asthhuyn@ucsc.edu>
+ * October 23 2023
+ */
+
+// Variables
 make = "Ford";
-"Ford"
 model = "Taurus";
-"Taurus"
 color = "Rusty";
-"Rusty"
 year = 1995;
-1995
-age = 2019 - year;
-24
+
+// Calculations
+age = 2023 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
