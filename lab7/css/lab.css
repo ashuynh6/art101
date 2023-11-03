@@ -7,3 +7,70 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+.back {
+  background-image: linear-gradient(rgb(28, 69, 135),#ffffff);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.code {
+  background-color: rgb(225, 229, 255);
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  display: inline-block;
+  margin: 10px;
+  border: solid 3px rgb(255, 215, 0);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  position: relative;
+  letter-spacing: .25em;
+  -webkit-text-stroke: rgb(28, 69, 135) 1px;
+}
+
+h2 {
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+  -webkit-text-stroke: rgb(28, 69, 135) 1px;
+}
+
+h1 {
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+  -webkit-text-stroke: rgb(28, 69, 135) 1px;
+  font-size: 200%;
+}
+
+.java {
+  color: rgb(255, 215, 0);
+  -webkit-text-stroke: rgb(28, 69, 135) 1px;
+  font-style: italic;
+  letter-spacing: .25em;
+}
+
+.name {  
+  color: rgb(255, 215, 0);
+  -webkit-text-stroke: rgb(28, 69, 135) 1px;
+  font-style: italic;
+  letter-spacing: .25em;
+  position: relative;
+  top: 220px;
+  right: 550px;
+  padding-left: 500px;
+  text-align: center;
+}
+
+.image {
+padding-left: 500px;
+padding-right: 1105px;
+height: 389px;
+left: 100px;
+bottom: 500px;
+}
