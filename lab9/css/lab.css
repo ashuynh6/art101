@@ -1,9 +1,30 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+ .special {
+    content: url(https://pbs.twimg.com/media/FxTWoSUaQAct6Mx?format=jpg&name=medium);
+    border: dotted 5px rgb(252, 124, 124);
+    color: pink;
+  }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+  .style {
+    background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    padding: 5px;
+    border-color: rgb(252, 124, 124);
+    border-style: solid;
+    color: white;
+  }
+  
+  .back {
+    margin: 10px;
     padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ffffff;
+    background-image: linear-gradient(pink, #FEE8DB);
+    background-repeat: no-repeat;
+    background-color: #FEE8DB;
+  }
+  
+  .text {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(252, 124, 124);
   }

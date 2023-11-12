@@ -1,21 +1,14 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
+ * Requirements: jQuery must be loaded for this script to work.Ashley Huynh <asthhuyn@ucsc.edu>
+ * Author : Ashley Huynh <asthhuyn@ucsc.edu>
+ * Date : November 13 2023
+ */
 
-// Constants
+// add bbutton to challenge section
+$("#challenge").append("<button class='style' id='button-challenge'>Click Here for  a Surprise!</button>");
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
+  // now add the "special" class to the selection
+  $("#challenge").toggleClass("special");
+});
