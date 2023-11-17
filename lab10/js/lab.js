@@ -5,7 +5,8 @@
  */
 // cr : Lyssa Li - shift after every message with 'direction' and 'count'
 var count = 0;
-
+$(document).ready(function(){
+  console.log("document loaded")
 // create helper function to generate fake dialogue
 function generateRandomText() {
   console.log("generateRandomText working");
@@ -32,4 +33,5 @@ $("#make-convo").click(function(){
   $("#output").append('<div class="' + direction + ' text"><p>' + newText + '</p></div>');
   // update count
   count = count + 1;
+});
 });
