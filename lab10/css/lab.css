@@ -1,9 +1,89 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+  .text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: darkgray;
+    color: white;
+    font-family: sans-serif;
+  }
+  /* cr : Lyssa Li */
+  .text {
+    width: fit-content;
+    max-width: 60%;
+    align-self: flex-start;
+  }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+  #output p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    border: 0.5px solid #42504c;
+  }
+
+  div {
+    display: block;
+  }
+  /* cr : Lyssa Li */
+  #output {
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    height: 420px;
+    width: 800px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: 2px solid #38646b;
     padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: #e8e1ee;
+  }
+  
+  .text:nth-child(odd) p {
+    background-color: rgb(233, 233, 233);
+    color: black;
+  }
+
+  .text:nth-child(even) p {
+    background-color: #3be0c3;
+    color: white;
+  }
+    /* cr : Lyssa Li */
+  .right {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .back {
+    background-image: 
+    linear-gradient(#16b199, #16b199, #38646b);
+  }
+
+  section {
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  html {
+    background-color: #42504c;
+    height: 923px;
+  }
+
+  section {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e8e1ee;
+  }
+
+  #make-convo {
+    background-color: #e8e1ee;
+    border-color: #42504c;
+    border-style: solid;
   }
