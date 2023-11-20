@@ -1,21 +1,38 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* lab.js : This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
+ * requirements : jQuery must be loaded for this script to work.
+ * Author : Ashley Huynh <asthhuyn@ucsc.edu>
+ * Date : November 20 2023
+ */
 
-// Constants
+// if the js is working, it will say so in console
+console.log("JS is working");
+// if still not working, it's smt else
 
-// Functions
+$(document).ready(function(){
+  // if button is activated, it will say so in console
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+  // anagram function
+function anagram(inputString) {
+  const userName = $("#input").val();
+  console.log("userName = ", userName);
+  // split string to array
+  var nameArray = userName.split('');
+  console.log("nameArray = ", nameArray);
+  // sort the array
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort = ", nameArraySort);
+  // join array back to a string
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted = ", nameSorted);
+  return nameSorted;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+console.log("Button clicked!");
+$("#my-button").click(function(){
+  const userName = $("#input").val();
+  var name = anagram(userName);
+  console.log("Prompt returned: " + name);
+  $("#title").html("Well hello, " + name + "!" + 
+  "<p class='size'>(Did I get it right?)</p>");
+})
+});

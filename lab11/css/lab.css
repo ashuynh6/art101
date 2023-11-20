@@ -7,3 +7,26 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  html {
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/16/55/41/1000_F_316554130_Lu63r6LZ158V98APTHqPwSvXsJOT5qSG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section {
+    background-color: #d5d7f1;
+    padding: 10px;
+  }
+  
+  .text {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(45, 47, 146);
+  }
+
+  .size {
+    font-size: 15px;
+  }
