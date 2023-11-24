@@ -32,7 +32,6 @@ $("#my-button").click(function(){
   const userName = $("#input").val();
   var name = anagram(userName);
   console.log("Prompt returned: " + name);
-  $("#title").html("Well hello, " + name + "!" + 
-  "<p class='size'>(Did I get it right?)</p>");
+  $("#title").html("Well hello, " + name + "!" + "<p class='size'>(Did I get it right?)</p>");
 })
 });

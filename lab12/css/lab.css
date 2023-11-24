@@ -1,9 +1,72 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+html {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: #f6bbc4;
+  -webkit-text-stroke: red .1px;
+  }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  h1 {
+    color: #f62e70;
+  }
+
+  h2 {
+    color: #f98eaa;
+  }
+
+  #button {
+    background-color: #f98eaa;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+ main {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/014/526/827/non_2x/aesthetic-pastel-gradient-purple-blue-and-pink-gradient-wallpaper-illustration-perfect-for-backdrop-wallpaper-background-banner-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    height: 875px;
+  }
+
+  .kitty {
+    content: url(https://64.media.tumblr.com/82eceb95123c9c9f46933e5bfdcb79f7/6acaf576f77f5640-f7/s500x750/da08cf019a9689c0c0a6d948c095a0a9fec8afcf.gif);
+    width: 200px;
+  }
+/* 1 */
+  .poc {
+    content: url(https://64.media.tumblr.com/61b9dcce923534b81d9498f06bead830/tumblr_pnnhnqi8cM1wpz8k8_400.gif);
+    width: 200px;
+  }
+/* 2 */
+  .ker {
+    content: url(https://64.media.tumblr.com/58a59eab7bad8758c6b9846a07917c89/5cfd502d17174f86-9c/s500x750/ec45513600c30de114b6585f1dd68cd1899ac294.gif);
+    width: 200px;
+  }
+/* 3 */
+  .pom {
+    content: url(https://64.media.tumblr.com/a86753dba21858536a4d4507fd96df87/9c6995b07d21774e-b4/s500x750/92f32f6605203b5f21c18e0d5faf1608409a4fc2.gif);
+    width: 200px;
+  }
+/* 4 */
+  .cin {
+    content: url(https://64.media.tumblr.com/af739b875720d758b3e873a5beebf633/5d1c7e11c5e1fbfa-2d/s500x750/b6e558f3644ee320c07368b1528b324fde4cbed4.gif);
+    width: 200px;
+  }
+/* 5 */
+  .mel {
+    content: url(https://i.pinimg.com/originals/93/9c/c4/939cc4e68820f0c3aee5e9f8bee203f2.gif);
+    width: 200px;
+  }
+  /* 6 */
+  .kuro {
+    content: url(https://i.pinimg.com/originals/fd/cd/d5/fdcdd51a047b114eb5c335e0314cbaad.gif);
+    width: 200px;
+  }
+  /* 7 */
+  .gude {
+    content: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTBtazhweTgzd3ZxdjZqOTQ3Nzl2ajV3Z21qOWE3ZnhudTNkbTUxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/d6i8gawepFjvy56vPM/giphy.gif);
+    width: 200px;
   }
