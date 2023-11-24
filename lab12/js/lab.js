@@ -38,3 +38,4 @@ myButton.addEventListener("click", function() {
   newText = "<p>You are " + house + "<p>";
   document.getElementById("output").innerHTML = newText;
 });
+
