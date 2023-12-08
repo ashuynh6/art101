@@ -1,21 +1,24 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/* Lab 16: JSON and APIs
+ * Ashley Huynh <asthhuyn@ucsc.edu>
+ * December 8 2023
+ */ 
 
-// Constants
+var proxy = "https://cors-anywhere.herokuapp.com/"
+var latesNum;
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+var initialAjax = {
+    url: proxy+"https://xkcd.com/info.0.json",
+    type: "GET",
+    dataType: "json",
+    success: function(data){
+      console.log(data);
+      latesNum = data.num;
+      displayComic(data);
+    },
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
+function displayComic(data) {
+  $("#output").append(`<img id='comic' src="${data.img}}" />`);
 }
 
-// let's get this party started
-main();
+$.ajax(initialAjax);
