@@ -1,43 +1,124 @@
-body {
-  background-color: #eccfcf;
-}
-
-h1,h2,h3 {
-  font-family: sans-serif;
-}
-
-h1 {
-  font-size: 200%;
-}
-
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #ffffff;
-  background-color: #ffbdbd;
-}
-
-
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #ffffff;
-  background-color: #e7dbdb;
-}
-
-.selfie {
-  max-height: 500px;
+html {
+  scroll-behavior: smooth;
+  color: white;
 }
 
 #border {
-  margin: 10px;
-  padding: 10px;
-  border: solid 5px #ffffff;
-  background-color: #ffbdbd;
+  margin: 50px;
+  width: auto;
+  height: auto;
+  border: solid #ffffff;
+  background-color: #74ad9b;
 }
 
 #bar {
   margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+div#bar {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+section.flex {
+  margin-left: 900px;
+  align-self: right;
+}
+
+body {
+  background-color: #608986;
+}
+
+h1,h2,h3 {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+main {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#links {
+  scroll-behavior: smooth;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: #74ad9b;
+  padding: 50px;
+  border-style: none solid solid solid;
+}
+
+#big {
+  font-size: 22px;
+}
+
+#aboutMe {
+  scroll-behavior: smooth;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  background-color: #74ad9b;
+  border-style: solid solid none solid;
+  /* -webkit-text-stroke: red .1px; */
+}
+
+ul {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #74ad9b;
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+
+/* #content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #ffffff;
+  background-color: #ffbdbd;
+} */
+
+/* .minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #ffffff;
+  background-color: #e7dbdb;
+} */
+
+.selfie {
+  max-height: 500px;
 }
 
 #selfie {
@@ -59,9 +140,5 @@ h1 {
 }
 
 /* ul {
-  list-style-image: url("/img/cherry-flower.png");
+  list-style-image: url("https://cdn-icons-png.flaticon.com/512/1762/1762755.png");
 } */
-
-ul {
-  color: red;
-}
