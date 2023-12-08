@@ -1,23 +1,15 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-color: #eccfcf;
 }
 
-/* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: sans-serif;
 }
 
-/* and we can have rules that overlap other rules, both take effect */
 h1 {
   font-size: 200%;
 }
 
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
@@ -25,7 +17,7 @@ h1 {
   background-color: #ffbdbd;
 }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
@@ -66,6 +58,10 @@ h1 {
   margin-left: 400px;
 }
 
-.list {
-  list-style-image: url(/img/cherry-flower.png);
+/* ul {
+  list-style-image: url("/img/cherry-flower.png");
+} */
+
+ul {
+  color: red;
 }

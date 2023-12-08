@@ -1,3 +1,42 @@
 .sourcelink {
   float: right;
 }
+
+#output {
+  column-width: 200px;
+}
+
+html {
+  background-color: #31294c;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: bold;
+  color: #d6d3df;
+  -webkit-text-stroke: #5756bb .1px;
+  }
+
+h1 {
+  color: #5756bb;
+}
+
+h2 {
+  color: #8182da;
+}
+
+main {
+  background-color: #c4a1ce;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 875px;
+}
+
+section {
+  padding: 20px;
+  background-color: #c4a1ce;
+}
+
+#comic {
+  border: 10px solid #5756bb;
+}

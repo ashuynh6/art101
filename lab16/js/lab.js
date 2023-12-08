@@ -18,7 +18,7 @@ var initialAjax = {
 }
 
 function displayComic(data) {
-  $("#output").append(`<img id='comic' src="${data.img}}" />`);
+  $("#output").append(`<img id='comic' src="${data.img}" />`);
 }
 
 $.ajax(initialAjax);
