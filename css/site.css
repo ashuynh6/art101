@@ -49,7 +49,7 @@ main {
   font-weight: bold;
 }
 
-#links {
+section#links {
   scroll-behavior: smooth;
   margin-left: 50px;
   margin-right: 50px;

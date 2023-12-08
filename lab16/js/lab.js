@@ -3,22 +3,34 @@
  * December 8 2023
  */ 
 
-var proxy = "https://cors-anywhere.herokuapp.com/"
-var latesNum;
+console.log("JS loaded");
 
-var initialAjax = {
-    url: proxy+"https://xkcd.com/info.0.json",
+const ENDPOINT = "https://xkcd.com/info.0.json";
+
+// attach eventlistener
+$("#activate").click(function(){
+  console.log("Click");
+  // ajax
+  const comicObj = {
+    url: ENDPOINT,
     type: "GET",
     dataType: "json",
-    success: function(data){
-      console.log(data);
-      latesNum = data.num;
-      displayComic(data);
-    },
-}
+    success: ajaxSuccess,
+    error: ajaxError,
+  }
+    $.ajax(comicObj);
+})
 
-function displayComic(data) {
-  $("#output").append(`<img id='comic' src="${data.img}" />`);
+function ajaxSuccess(comicObj){
+  console.log("Here's what I got:", comicObj);
+  const title = comicObj.title;
+  const alt = comicObj.alt;
+  const img = comicObj.img;
+  // jQuery
+  $("#output").append("<h2>" + comicObj.title + "</h2>");
+  $("#output").append("<img id='comic' src='" + comicObj.img + "'/>");
+  $("#output").append("<p>" + comicObj.alt + "</p>");
 }
-
-$.ajax(initialAjax);
+function ajaxError(request,error){
+  console.log("Oops:", request, error);
+}

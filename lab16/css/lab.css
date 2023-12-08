@@ -10,6 +10,7 @@ html {
   background-color: #31294c;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 5px;
   font-size: 23px;
   font-style: italic;
   font-weight: bold;
@@ -39,4 +40,11 @@ section {
 
 #comic {
   border: 10px solid #5756bb;
+}
+
+div#output {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
 }
