@@ -20,6 +20,10 @@ html {
   display: flex;
 }
 
+div#border.flex {
+  justify-content: space-between;
+}
+
 div#bar {
   align-self: center;
   display: flex;
@@ -32,7 +36,7 @@ div#bar {
 
 section.flex {
   gap: 10px;
-  margin-left: 900px;
+  margin-right: 20px;
 }
 
 body {
